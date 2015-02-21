@@ -1,0 +1,198 @@
+@import url(http://fonts.googleapis.com/css?family=Gudea:400,400italic&subset=latin,latin-ext);
+
+a { color: #555; }
+a:hover { text-decoration: none; }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #fcfcfc;
+}
+
+body {
+    margin: 0 auto;
+    width: 800px;
+    font-family: 'Gudea', sans-serif;
+    font-size: 16px;
+}
+
+/* Clearfix */
+.clearfix, body:after, body:before {
+    content: '';
+    clear: both;
+}
+
+header {
+    width: 759px;
+    float: left;
+    padding: 20px;
+    font-style: italic;
+    font-size: 14px;
+    background: #F7F7F7;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+header .title {
+    float: left;
+}
+
+header h1 small {
+    font-size: 12px;
+}
+
+header ul {
+    display: block;
+    float: right;
+    position: absolute;
+    top: 36px;
+    right: 20px;
+}
+
+header ul li {
+    display: block;
+    float: left;
+    table-layout: fixed;
+    text-align: right;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+nav {
+    width: 100%;
+    float: left;
+    margin: 5px 0 15px;
+}
+
+nav #sort {
+    float: right;
+    font-size: 11px
+}
+
+nav h2.title {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+nav#funkcie small {
+    font-weight: bold;
+    width: 20px;
+    display: inline-block;
+    text-align: right;
+    color: #222;
+}
+
+nav#funkcie a {
+    cursor: pointer;
+}
+
+nav#funkcie span {
+    color: black;
+    font-size: 12px
+}
+
+nav article:nth-child(2) { border: 0 }
+nav article {
+    border-top: 2px solid #eee;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    float: left;
+}
+
+nav article h2 {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+nav article h2 span { color: #555; font-size: 14px; }
+
+nav article .area {
+    float: left;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+nav article .area .lines {
+    font-size: 14px;
+    line-height: 18px;
+    width: 27px;
+    text-align: center;
+    background: #eee;
+    color: #777;
+    float: left;
+    padding: 5px 0;
+
+}
+
+nav article .area .lines i {
+    display: block;
+}
+
+nav article .area textarea {
+    width: 763px;
+    border: 0;
+    resize: none;
+    background: transparent;
+    border: 0;
+    font-family: 'Gudea', sans-serif;
+    color: #888;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 5px;
+    float: right;
+    overflow: hidden;
+}
+
+nav article .area textarea:focus {
+    color: #222
+}
+
+nav article .info span { 
+    float: left;
+    font-weight: bold;
+    position: relative;
+    left: 12px;
+    top: -1px;
+}
+
+nav article p {
+    font-size: 14px;
+    text-align: justify;
+    float: right;
+    width: 772px;
+}
+
+nav article .info {
+    margin: 10px 0 0;
+    float: left;
+    width: 100%;
+}
+
+#goTop {
+    background: url(../images/top.png) no-repeat;
+    width: 29px;
+    height: 15px;
+    display: none;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+footer {
+    float: left;
+    font-size: 12px;
+    
+    margin: 0 0 25px 0;
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid #ddd;
+    padding-top: 25px;
+}
